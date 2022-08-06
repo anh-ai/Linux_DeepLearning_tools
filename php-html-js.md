@@ -641,7 +641,7 @@ if (isset($_POST['mStr'])){
 </details>
 
 
-# Table filter
+# Table filter: Export table to excel
 	
 <details>
 <summary>Full code:</summary>
