@@ -69,6 +69,10 @@ tar -jcvf {.tbz2-file} {files}
 	tar -zcvf pics.tar.gz *.jpg *.png
 	tar -jcvf data.tbz2 *.doc
 	ls -l
+	
+!7z -v2g a -t7z -m0=LZMA2:d64k:fb32 -ms=8m -mmt=30 -mx=1 -- "DST-File.7z" "SRC dir"	
+!7z -v2g a -t7z -m0=LZMA2:d64k:fb32 -ms=8m -mmt=30 -mx=1 -- "/content/TA/Thu-vien-Aiso-chung.7z" "/content/TA/gdrive/Shareddrives/Thư Viện AiSo-Chung"	
+
 ```
 
 ## Decompressing files:
